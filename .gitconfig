@@ -1,0 +1,35 @@
+[user]
+    name = 
+    email = 
+
+[core]
+    autocrlf = input
+	editor = nvim
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    ui = auto
+
+[color "branch"]
+    current = cyan reverse
+    local = green
+    remote = red
+
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red
+
+[log]
+    date = relative
+
+[format]
+    pretty = format:%C(yellow)%h %C(magenta)%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s
